@@ -3,7 +3,7 @@ import React from 'react'
 const Third = () => {
   return (
     <div className='container mx-auto relative pb-[8rem]'>
-            <img src="layer.png" alt="pic" className='h-126 lg:w-[70rem] md:w-[50rem] sm:w-[40rem]' />
+            <img src="layer.png" alt="pic" className='h-126 lg:w-[80rem] md:w-[50rem] sm:w-[40rem]' />
             <div className='top-0 left-0 absolute'>
             <div className="py-12 lg:ml-[12rem] md:ml-[8rem] sm:ml-20 font-bold text-4xl text-white text-center">Prender Contact</div>
             <div className='px-20'>

@@ -27,10 +27,13 @@ module.exports = {
       'red': '#DB2222',
       'orange': '#C11F1F',
       'pink': '#db2222',
+      'blue': '#1abddd',
       'green':{
         100:'#4AA80E',
         200:'#6EE22A',
         300:'#4aa80e',
+        400:'#457a22',
+        500:'#8e8e92',
       },
       'black': {
         100: '#303030',
@@ -41,6 +44,11 @@ module.exports = {
     },
     extend: {
       height: {
+        '64': '16rem',
+        '128': '32rem',
+        '126': '30rem',
+      },
+      width: {
         '128': '32rem',
         '126': '30rem',
       },
@@ -49,7 +57,8 @@ module.exports = {
       },
       space: {
         '5px': '5px',
-        '22rem':'22rem'
+        '22rem':'22rem',
+        '3/7':'40%'
       }
     },
   },
