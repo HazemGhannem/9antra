@@ -34,12 +34,14 @@ const AdminDeleteProduct = asyncHandler(async (req, res) => {
 
 
   const CreateProduct = asyncHandler(async (req, res) => {
-    const {title,image,price,description}=req.body
+    const {title,image,price}=req.body
+    if (!title || !image || !price) {
+      res.status(404).json("add data")
+    }
     const product = new products({
       title:title,
       image: image,
       price:price,
-      description:description,
     })
     const createproduct = await product.save()
     res.status(201).json(createproduct )
@@ -48,15 +50,16 @@ const AdminDeleteProduct = asyncHandler(async (req, res) => {
 
 
   const UpdateProduct = asyncHandler(async (req, res) => {
-    const {title,image,price,description}=req.body
-  
+    const {title,image,price}=req.body
+    if (!title || !image || !price) {
+      res.status(404).json("add data")
+    }
     
    const product = await products.findById(req.params.id)
 
    if (product) {
     product.title=title
     product.image=image
-    product.description=description
     product.price=price
     const updateproduct = await product.save()
     res.json(updateproduct)

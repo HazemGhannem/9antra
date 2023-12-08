@@ -52,17 +52,17 @@ const First = () => {
         
         </div>
         <div className='absolute right-20 flex justify-end z-50'>
-              <div class="space-y-5  px-3">
+              <div class="space-y-4  px-2">
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>
               </div>
-              <div class="space-y-5 px-3">
+              <div class="space-y-4 px-2">
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>
               </div>
-              <div class="space-y-5 px-3">
+              <div class="space-y-4 px-2">
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>
                 <div class="w-2 h-2 rounded-full bg-white"></div>

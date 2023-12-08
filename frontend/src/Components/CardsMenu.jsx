@@ -23,7 +23,7 @@ const CardsMenu = ({menu}) => {
       
       <Container className='px-14'>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={menu.image} />
+      <Card.Img variant="top" src={menu.image}  className='h-[320px] w-full'/>
       <Card.Body>
         <Card.Title>{menu.title}</Card.Title>
         <Card.Text>
