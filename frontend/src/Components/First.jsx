@@ -3,7 +3,7 @@ import React from 'react'
 const First = () => {
   return (
     
-    <section className='bg-black-100 h-[57rem]' >
+    <section className='bg-black-100 h-screen' >
            {/* <div className='bg-black-100'>
           <div className='flex justify-between '>
           <img src="peper.png" alt="peper" className='pl-10 pt-10 h-full'/>
@@ -25,7 +25,7 @@ const First = () => {
         </div>
 
         <div>
-        <div className="absolute bottom-0 z-50 right-[40.1rem] bg-green-300  rounded-tl-full  rounded-tr-full w-52 h-24" ></div>
+        <div className="absolute bottom-0 z-50 right-1/3 mr-8 bg-green-300  rounded-tl-full  rounded-tr-full w-52 h-24" ></div>
         <div className="absolute bottom-0 z-40 right-1/3 bg-green-400  rounded-tl-full  rounded-tr-full w-56 h-28" ></div>
         </div>
         
